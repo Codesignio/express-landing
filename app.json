@@ -1,0 +1,26 @@
+{
+  "name": "ReLauncher",
+  "description": "ReLauncher cancels and relaunches units on CrowdFlower which are in judging mode for too long time",
+  "repository": "https://github.com/pavelk2/crowd-launcher-api",
+  "logo": "http://cliparts.co/cliparts/8cE/59B/8cE59BXca.png",
+  "keywords": ["express", "angularjs","crowdflower"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/ddollar/heroku-buildpack-multi.git",
+    "HEROKU_URL": {
+      "description": "The URL of this Heroku app.",
+      "value": "http://YOURAPPNAME.herokuapp.com"
+    },
+    "OPBEAT_APP_ID": {
+      "description": "Set it up to get immediate details of any errors in opbeat.com",
+      "required": false
+    },
+    "OPBEAT_ORGANIZATION_ID": {
+      "description": "Set it up to get immediate details of any errors in opbeat.com",
+      "required": false
+    },
+    "OPBEAT_SECRET_TOKEN": {
+      "description": "Set it up to get immediate details of any errors in opbeat.com",
+      "required": false
+    }
+  } 
+}

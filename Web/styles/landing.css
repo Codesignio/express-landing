@@ -1,0 +1,88 @@
+.nav li a:not(.btn) {
+    color: white;
+    background: none;
+    display: inline-block;
+}
+
+section {
+    padding: 80px 0 80px 0;
+}
+
+.jumbotron {
+    color: white;
+}
+.jumbotron.home{
+	margin-bottom:400px;
+	height:600px;
+}
+.green {
+    color: #22BC85;
+}
+
+.bg-grey {
+    background-color: #444 !important;
+}
+
+.background {
+	width:100%;
+	top:0px;
+    position: absolute;
+}
+
+.bg-green {
+    background-color: #22BC85 !important;
+}
+
+.navbar-nav.navbar-right>li {
+    margin-left: 30px;
+}
+
+div a.btn.btn-lg {
+    font-size: 24px;
+    padding: 15px 60px;
+}
+div h2 a{
+    color:white;
+    text-decoration: underline;
+}
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+}
+
+section:not(.jumbotron) h1 {
+    margin-bottom: 50px;
+}
+
+div a.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 13px 35px;
+    background-color: #fff;
+}
+.promo{
+	position:absolute;
+	left:0px;
+    width:100%;
+}
+.promo img {
+    max-width: 1024px;
+    border:1px solid #eee;
+}
+
+.nav li a:hover {
+    background: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.customers img {
+    max-width: 100%;
+    max-height: 90px;
+}
+
+@media (min-width: 1200px) .container {
+    width: 900px;
+}
